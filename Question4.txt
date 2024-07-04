@@ -1,0 +1,4 @@
+QUESTION 4
+A custom annotation can be designed to wrap the @PreAuthorize annotation at the class level, enabling centralized configuration. 
+This will simplify future changes for security logic as I will only need to update the custom annotation instead of modifying @PreAuthorize individually across each method. 
+This approach promotes cleaner and more efficient code management.
